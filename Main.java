@@ -6,5 +6,8 @@ public class Main {
 		 Human human = new Human("Kelvin",65,78);
 		 
 		 System.out.println(human.name);
+		 
+		 human.eat();
+		 human.drink();
 	 }
 }
