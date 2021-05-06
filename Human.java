@@ -9,4 +9,12 @@ public class Human {
 	   this.age = age;
 	   this.weight = weight;
    }
+   
+   void eat() {
+	   System.out.println(name + "eat bread of egg");
+   }
+   
+   void drink() {
+	   System.out.println(name + "drink milk in breakfast");
+   }
 }
