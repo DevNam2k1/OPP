@@ -3,11 +3,16 @@ public class Main {
 	 public static void main(String[] args) {
 		 
 		 
-		 Human human = new Human("Kelvin",65,78);
+//		 Human human = new Human("Kelvin",65,78);
+//		 
+//		 System.out.println(human.name);
+//		 
+//		 human.eat();
+//		 human.drink();
+		 Garage garage = new Garage();
 		 
-		 System.out.println(human.name);
+		 Cars car1 = new Cars("BMW");
 		 
-		 human.eat();
-		 human.drink();
+		 garage.park(car1);
 	 }
 }
