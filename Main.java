@@ -9,10 +9,18 @@ public class Main {
 //		 
 //		 human.eat();
 //		 human.drink();
-		 Garage garage = new Garage();
+//		 Garage garage = new Garage();
+//		 
+//		 Cars car1 = new Cars("BMW");
+//		 
+//		 garage.park(car1);
 		 
-		 Cars car1 = new Cars("BMW");
+		 Friend friend1 = new Friend("Nam");
+		 Friend friend2 = new Friend("Nam1");
+		 Friend friend3 = new Friend("Nam2");
 		 
-		 garage.park(car1);
+		 System.out.println(Friend.numberOfFriend);
+		 
+		 Friend.displayFriend();
 	 }
 }
