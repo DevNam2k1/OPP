@@ -15,12 +15,17 @@ public class Main {
 //		 
 //		 garage.park(car1);
 		 
-		 Friend friend1 = new Friend("Nam");
-		 Friend friend2 = new Friend("Nam1");
-		 Friend friend3 = new Friend("Nam2");
+//		 Friend friend1 = new Friend("Nam");
+//		 Friend friend2 = new Friend("Nam1");
+//		 Friend friend3 = new Friend("Nam2");
+//		 
+//		 System.out.println(Friend.numberOfFriend);
+//		 
+//		 Friend.displayFriend();
 		 
-		 System.out.println(Friend.numberOfFriend);
+		 Car car = new Car();
 		 
-		 Friend.displayFriend();
+		 car.go();
+		 
 	 }
 }
